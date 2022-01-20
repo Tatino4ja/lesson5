@@ -37,4 +37,7 @@
     .h50{
         height: 50px;
     }
+    .br15{
+        border-radius: 15px;
+    }
 }
