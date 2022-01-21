@@ -1,0 +1,49 @@
+.px{
+    /*width: 992px;*/
+    /*padding: 5px;*/
+}
+.border{
+    border: 1px solid purple;
+}
+.r5{
+    border-radius: 5px;
+}
+.h200{
+    height: 200px;
+}
+.bgs{
+    background: silver;
+}
+.flex{
+    display: flex;
+}
+.w2{
+    width: 75%;
+}
+.w200{
+    width: 33%;
+}
+
+.w25{
+    width: 25%;
+}
+.mg{
+    margin: 5px;
+}
+.s{
+    justify-content: space-between;
+}
+@media screen and (min-width: 0) and (max-width: 850px) {
+    .flex1 {
+        flex-direction: column;
+    }
+
+    .h1 {
+        height: 100px;
+    }
+    .w3{
+        width: auto;
+    }
+
+
+}
