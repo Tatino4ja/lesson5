@@ -41,7 +41,7 @@
 
     .column{
         flex-direction: column;
-}
+    }
     .wh{
         width: auto;
         height: 150px;

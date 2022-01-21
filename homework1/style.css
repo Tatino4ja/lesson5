@@ -10,37 +10,36 @@
 .w75{
     width: 75%;
 }
-.h350{
-    height: 350px;
+.w33{
+    width: 33%;
 }
 .w25{
     width: 25%;
 }
-.container{
-    border: 1px solid darkslategrey;
-    padding: 5px;
+
+.m5{
+    margin: 5px;
 }
 .br5{
     border-radius: 5px;
 }
-.m5{
-    margin: 5px;
-}
+
 
 @media screen and (min-width: 0) and (max-width: 992px){
-.flex{
-    flex-direction: column;
-}
-    .wa{
+    .column{
+        flex-direction: column;
+    }
+    .h300{
+        height: 300px;
         width: auto;
     }
-    .h50{
-        height: 50px;
-    }
-    .br15{
-        border-radius: 15px;
+    .h200{
+        height: 150px;
     }
     .w75{
         width: auto;
+    }
+    .br5{
+        border-radius: 15px;
     }
 }
