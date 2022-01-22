@@ -1,0 +1,37 @@
+.ff{
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+
+.header{
+    /*margin: 27px 145px 0 145px;*/
+    height: 52px;
+    justify-content: space-between;
+
+}
+.menu{
+    column-gap: 27px;
+    align-items: center;
+}
+
+.menu a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 16px;
+    align-items: center;
+}
+.menbut{
+    align-items: center;
+    grid-column-gap: 27px;
+
+}
